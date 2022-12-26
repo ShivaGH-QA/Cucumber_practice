@@ -18,7 +18,7 @@ public class dataTable {
 
 	@Then("user gets error.")
 	public void user_gets_error() {
-		System.out.println("test");
+		System.out.println("test data table");
 	}
 
 }
