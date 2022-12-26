@@ -1,5 +1,7 @@
 Feature: login to the application 
 
+Background: this is commented line
+
 Scenario: login with valid credentials
 Given User is already registered to application 
 And login with valid credentials

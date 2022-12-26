@@ -8,8 +8,8 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
 		features = {"src/test/resources/com/cucumber/java/practice"},
 		//features = {"src/test/resources/com/cucumber/java/practice/login_tags.feature"},
-		glue={"glue_files","myHooksPkg"}
-		//plugin= {"pretty"}
+		glue={"glue_files","myHooksPkg"},
+		plugin= {"pretty"}
 		//dryRun= true,
 		//monochrome=true
 		
