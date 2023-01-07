@@ -33,6 +33,11 @@ public class dataTableCodee {
 	public void adding_maps_Steps(DataTable table) {
 		 List<Map<String,String>> userMap=table.asMaps(String.class,String.class);
 		 System.out.println(userMap.get(0).get("Name"));
+		 for (Map<String, String> e:userMap) {
+			System.out.println("map column values "+e.get("Name")); 
+			System.out.println("map column values "+e.get("email"));
+			System.out.println("map column values "+e.get("id"));
+		 }
 	}
 
 }
