@@ -22,5 +22,6 @@ public class randomfunction {
 			 System.out.println("5 random alphanumeric string with length 12"); 
 			 String beta1 = randomString(12); 
 			 System.out.println(beta1);
+			 
 		 }
 	}
